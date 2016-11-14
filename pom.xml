@@ -167,10 +167,16 @@
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
+    <dependency>
+            <groupId>org.mule.modules</groupId>
+            <artifactId>mule-module-json</artifactId>
+            <version>${mule.version}</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
 	<repositories>
-          <repository>
+         <repository>
             <id>Central</id>
             <name>Central</name>
             <url>http://repo1.maven.org/maven2/</url>
@@ -190,7 +196,7 @@
             <layout>default</layout>
             <url>http://repository.mulesoft.org/releases/</url>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
